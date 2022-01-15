@@ -72,3 +72,78 @@ button:hover{
     align-items: center;
     display: flex;
 }
+
+/* third-steps */
+.colums{
+    text-align: center;
+    margin-top: grid;
+    
+}
+.raiting-info{
+    display: flex;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.coulomns{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5px;
+    padding: 0, 4px;
+    padding-left: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-3{
+    width: 320px;
+    margin: 5px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-shadow: 0px 2px 4px 0px gray;
+}
+#link-1{
+    text-decoration: none;
+    font-weight: 700;
+    padding-left: 90%;
+    padding-top: 50px;
+    color: tomato;
+}
+/* footer */
+.add-btn{
+    padding-left: 40%;
+}
+footer{
+    background-size:containe,cover;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+footer .social-link{
+    height: 13px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+/* mobile devices */
+@media only screen and(max-width:688px){
+    .row{
+        flex-direction: row-reverse;
+        margin: 50px 0;
+    }
+    .col-1{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    .col-1 h1{
+        font-size: 35px;
+    }
+    .col-1 p{
+        font-size: 15px;
+    }
+
+}
